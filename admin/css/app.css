@@ -1,0 +1,377 @@
+@charset "UTF-8";
+
+/*FONTS*/
+
+
+/*GLOBAL STYLES*/
+
+body, h1, h2, h3, h4, h5, h6
+{
+
+	font-family: 'Montserrat', Arial, sans-serif;
+	color: black;
+}
+
+p, a
+{
+	font-size: 1.2em;
+}
+
+a
+{
+	color: black;
+}
+
+a:hover
+{
+	color: black;
+}
+
+a:visited
+{
+	color: black;
+}
+
+input[type="submit"]
+{
+	background-color: #fff;
+	border-radius: 5px;
+	color: #1574ca;
+	font-family: 'Montserrat', Arial, sans-serif;
+	border: 3px #1574ca solid;
+	font-size: 1.4em;
+	padding: 10px;
+	transition: background-color 0.5s ease-in-out;
+	margin-bottom: 20px;
+}
+
+input[type="submit"]:hover
+{
+	background-color: #1574ca;
+	color: #fff;
+	cursor: pointer;
+}
+
+.viewPage
+{
+	background-color: #fff;
+	border-radius: 5px;
+	border: 3px #1574ca solid;
+	color: #1574ca;
+	display: inline-block;
+	font-size: 1em;
+	padding: 5px;
+	transition: background-color 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+.viewPage:hover
+{
+	background-color: #1574ca;
+	color: #fff;
+	cursor: pointer;
+}
+
+textarea
+{
+	height: auto;
+	margin-bottom: 20px;
+}
+
+input[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color']
+{
+	margin-bottom: 20px;	
+}
+
+.cmsIcon
+{
+	width: 80px;
+	display: block;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+.cmsIconDiv
+{
+	margin-bottom: 20px;
+}
+
+/*LOGIN*/
+
+#loginHeader
+{
+	text-align: center;
+}
+
+.logo
+{
+	margin: 0;
+	width: 150px;
+}
+
+#loginHeader h1
+{
+	font-weight: bold;
+}
+
+#adminH2
+{
+	margin-top: 50px;
+	color: #1574ca;
+	text-align: center;
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+#form
+{
+	text-align: center;
+	border-radius: 2px;
+	padding: 15px 0px 25px 0px;
+	min-width: 100%;
+}
+
+label
+{
+	color: black;
+	font-size: 1.4em;
+}
+
+#username[type="text"]
+{
+	margin: 0 auto;
+	width: 300px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 2px;
+	font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+
+#password[type="password"]
+{
+	margin: 0 auto;
+	width: 300px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 2px;
+	font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/*INDEX*/
+
+/*TOP NAV*/
+
+#header
+{
+	background-color: #1574ca;
+    z-index: 1;
+}
+
+header
+{
+	min-width: 100%;
+}
+
+#icon
+{
+	width: 40px;
+	padding-top: 10px;
+}
+
+#mainNav ul li
+{
+	display: inline;
+	list-style-type: none;
+	text-decoration: none;
+	margin-right: 10px;
+	color: white;
+}
+
+#mainNav ul li a
+{
+	display: inline;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+#adminSection
+{
+	min-width: 100%;
+}
+
+#welcomePanel
+{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#welcomePanel h2
+{
+	margin-top: 20px;
+	color: black;
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 3em;
+}
+
+#welcomePanel p
+{
+	margin-bottom: 40px;
+}
+
+#welcomePanel a
+{
+	margin-right: 20px;
+}
+
+.userName
+{
+}
+
+.logOut
+{
+	display: inline;
+}
+
+#lastLogin
+{
+
+}
+
+/*Side Panel*/
+
+#sidePanel
+{
+	background-color: #1574ca;
+}
+
+#sidePanel h2
+{
+	color: white;
+}
+
+.button
+{
+	display: block;
+	width: 100%;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+/*User Settings*/
+
+.userSettings
+{
+	text-align: center;
+}
+
+.userSettings h2
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.userSettings a
+{
+	margin-right: 20px;
+}
+
+/*Content Settings*/
+
+.contentSettings
+{
+	text-align: center;
+}
+
+.contentSettings h2
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.contentSettings a
+{
+	margin-right: 20px;
+}
+
+/*Add Video*/
+
+.addVideo h2
+{
+	margin-top: 20px;
+}
+
+/*Edit and Create User*/
+
+.createUserForm
+{
+	margin-top: 20px;
+}
+
+.editUserForm
+{
+	margin-top: 20px;
+}
+
+/*Edit Content*/
+
+.editContent h2
+{
+	margin-top: 20px;
+}
+
+/*Delete User*/
+
+.deleteUser h2
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.deleteUser a
+{
+	display: block;
+	margin-bottom: 40px;
+}
+
+/*Delete Content*/
+
+.deleteContent h2
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.deleteContent a
+{
+	display: block;
+	margin-bottom: 20px;
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) 
+{
+	#mainNav ul
+	{
+		margin-top: 10px;
+	}
+
+
+	#sidePanel
+	{
+		min-height: 100vh;
+	}
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) 
+{
+	.cmsIcon
+	{
+		width: 120px;
+	}
+
+}
