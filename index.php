@@ -78,10 +78,11 @@
     <h2><?php echo $row['index_videoTitle']; ?></h2>
 
     <video controls class="video">
-        <source src="video/chantry.mp4" type="video/mp4"/>
-        <!--<source src="" type="video/webm"/>
-        <source src="" type="video/ogg"/>-->
+        <source src="video/chantryislandpromo.mp4" type="video/mp4">
+        <source src="video/chantryislandpromo.webm" type="video/webm">
+        <source src="video/chantryislandpromo.ogv" type="video/ogg">
     </video>
+
     </div>
     </section>
 
